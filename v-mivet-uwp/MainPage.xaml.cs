@@ -26,5 +26,10 @@ namespace v_mivet_uwp
         {
             this.InitializeComponent();
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException("Exception message");
+        }
     }
 }

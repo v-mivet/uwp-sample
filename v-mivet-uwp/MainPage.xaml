@@ -14,5 +14,6 @@
         </controls:WrapPanel>
         <TextBlock>v-mivet uwp app</TextBlock>
         <Button>Click here</Button>
+        <Button Click="ButtonBase_OnClick">Crash</Button>
     </StackPanel>
 </Page>
