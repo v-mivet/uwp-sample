@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="v_mivet_uwp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:v_mivet_uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d">
+    <StackPanel>
+        <controls:WrapPanel>
+            <Rectangle Fill="Red" Width="200" Height="100"></Rectangle>
+            <Rectangle Fill="Green" Width="200" Height="100"></Rectangle>
+        </controls:WrapPanel>
+        <TextBlock>v-mivet uwp app</TextBlock>
+        <Button>Click here</Button>
+    </StackPanel>
+</Page>
