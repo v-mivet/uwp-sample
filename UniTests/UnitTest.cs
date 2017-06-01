@@ -3,6 +3,8 @@ using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
 
 namespace UniTests
 {
+    using v_mivet_uwp;
+
     [TestClass]
     public class UnitTest1
     {
