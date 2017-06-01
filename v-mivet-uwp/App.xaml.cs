@@ -4,8 +4,8 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using Microsoft.Azure.Mobile;
-using Microsoft.Azure.Mobile.Analytics;
+//using Microsoft.Azure.Mobile;
+//using Microsoft.Azure.Mobile.Analytics;
 
 namespace v_mivet_uwp
 {
@@ -31,7 +31,7 @@ namespace v_mivet_uwp
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
-            MobileCenter.Start("881cfe0c-43d3-4b69-84a6-8ce79413a658", typeof(Analytics));
+            //MobileCenter.Start("881cfe0c-43d3-4b69-84a6-8ce79413a658", typeof(Analytics));
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
